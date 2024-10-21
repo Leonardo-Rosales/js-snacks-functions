@@ -5,9 +5,14 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+function greet(names) {
+    return "Ciao " + names; 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+let greetingMessage = greet(name);
+console.log(greetingMessage);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
